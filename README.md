@@ -5,7 +5,9 @@ list1 = [1,2,3,4,5,6,7,8,9,10,12,13,14,15,16,17,18,19,20]
 Hint: use a for loop
 ```shell
 add your code here
-```
+list2 = []
+for x in list1:
+    list2.append(x ** 2)
 
 2) Write a program that will ask the user to input a password. If the password entered is correct, the code should exit with a welcome message. Otherwise, it should ask the user to enter the password again up-to 3 times, after which, it should exit with an error message.
 ```shell
