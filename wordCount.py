@@ -18,21 +18,12 @@ myDict = dict()
 #1) loop through the list
 
 #2) check if the word is counted or not. if it's not counted add it to the dictionary as a new element but if it is count, update the count.
-repeat = 0
 
-count = 1
-for x in list:
-    for y in myDict:
-        if x == y:
-            myDict[x] += count
-            repeat = 1
-            break
-        else:
-            repeat = 0
-
-    if (repeat == 0):
-        myDict[x] = count
-
+for word in list:
+    if word not in myDict:
+        myDict.update({word : 1})
+    else:
+        myDict[word] = myDict[word] + 1
 
 #------------------------------------#------------------------------------
 
