@@ -1,5 +1,5 @@
 # Project 4 - Loops
-
+  
 1) Write a program that will take a list of numbers calculates the square of the numbers and prints saves them to a new list.
 list1 = [1,2,3,4,5,6,7,8,9,10,12,13,14,15,16,17,18,19,20]
 Hint: use a for loop

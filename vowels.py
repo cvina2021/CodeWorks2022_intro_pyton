@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 user = input("Enter word: ")
 output = ""
 
@@ -15,4 +15,3 @@ for letter in word:
         word2 = word2+letter
 
 print(word2)
->>>>>>> 1d516f57a50856cbdffe5dd8b383657a76c748c6

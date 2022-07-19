@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 correctPass = "python"
 
 i = 0
@@ -23,4 +23,3 @@ while trial > 0:
     else:
         print("Error: Password incorect")
         trial = trial - 1
->>>>>>> 1d516f57a50856cbdffe5dd8b383657a76c748c6
