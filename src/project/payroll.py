@@ -5,15 +5,20 @@ from lesson.employee import Employee, Developer, Lead
 class Payroll:
 
     #init function
-
+    def __init__(self, name):
+        self.name = name
+        self.employee_list = []
 
 
     #add_employee()
-
+    def add_employee(self, Employee):
+        self.employee_list.append(Employee)
 
 
     #get_payroll()
-
+    def get_payroll(self):
+        for x in self.employee_list:
+            print(x.name + " " + str(x.payment(x.sal)))
 
 
 
