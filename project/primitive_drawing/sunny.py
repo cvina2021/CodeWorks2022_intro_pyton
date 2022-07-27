@@ -10,12 +10,12 @@ screen_title = "New Game"
 arcade.open_window(screen_width, screen_height, screen_title)
 
 #set background color
-arcade.set_background_color( (0,0,0))
+arcade.set_background_color( (135,206,235))
 #start render
 arcade.start_render( )
 
 #drawing code here
-
+arcade.draw_circle_filled(300, 300, 75, arcade.color.YELLOW)
 
 #finish render
 arcade.finish_render( )
